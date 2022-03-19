@@ -1,0 +1,20 @@
+{
+  "name": "have-you-tried-being-social",
+  "version": "1.0.0",
+  "description": "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaclark369/have-you-tried-being-social.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaclark369/have-you-tried-being-social/issues"
+  },
+  "homepage": "https://github.com/zaclark369/have-you-tried-being-social#readme"
+}
