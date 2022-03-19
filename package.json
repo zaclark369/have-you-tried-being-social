@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/zaclark369/have-you-tried-being-social/issues"
   },
-  "homepage": "https://github.com/zaclark369/have-you-tried-being-social#readme"
+  "homepage": "https://github.com/zaclark369/have-you-tried-being-social#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.7"
+  }
 }
