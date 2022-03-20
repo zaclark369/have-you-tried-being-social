@@ -12,31 +12,16 @@ const reactionSchema = new Schema({
         default: Date.now,
         get: createdAtVal => dateFormat(createdAtVal)
       },
-    username: [
-       { 
+    username: {        
          type: String,
         required: true,
-      }
-       ],
-      reactionId: [
-        
-      ],
     },
-{
-    toJSON: {
-        virtuals: true,
-        getters: true
+      reactionId: {
+          type: Schema.Types.ObjectId,
+          default: new Types.ObjectId
       },
-    id: false,
-}
+    },
 );
 
-reactionSchema.virtual('reactionCount').get(function() {
-    return this.reactions.length;
-  });
-
-// create model using schema
-const reaction = model('reaction', reactionSchema);
-
 // export
-module.exports =  reaction;
+module.exports =  reactionSchema;
