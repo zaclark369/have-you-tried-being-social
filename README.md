@@ -22,10 +22,7 @@
 
 - `git clone ` application to your local machine.
 - `npm i `
-- `mysql -u root -p`
-- `source db/schema.sql`
-- `quit`
-- `npm start` <br><br>
+- `npm start`
   
 
 ## Usage
