@@ -55,7 +55,7 @@ const userController = {
       .catch((err) => res.status(400).json(err));
   },
 
-  addUserFriend() {
+  addUserFriend({ params}, res) {
     User.findOneAndUpdate(
       { _id: params.userId },
       { $addToSet: { friends: params.friendId } }
@@ -70,7 +70,7 @@ const userController = {
       .catch((err) => res.status(400).json(err));
   },
 
-  deleteUserFriend() {
+  deleteUserFriend({ params}, res) {
     //   used module help from previous class assignment, reference here if needed in future
     User.findOneAndUpdate(
       { _id: params.userId },
