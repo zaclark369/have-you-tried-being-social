@@ -33,7 +33,7 @@ The backend of a social network app. This backend will allow creation of users, 
 
 ## Video
 
-[![landing page](https://drive.google.com/file/d/18Yi8Im-e1AHHJsaHiZhzNVGiU02qQRc7/view?usp=sharing "Demo Video"){:target="_blank"}
+[![Demo Video](https://drive.google.com/file/d/18Yi8Im-e1AHHJsaHiZhzNVGiU02qQRc7/view?usp=sharing)
 
 ## Collaboration
 
