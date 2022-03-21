@@ -4,6 +4,7 @@
 
 ## Description
 
+A social media backend application that can be easily integrated into a front end application that looks however the end user desires. It was created using mongoose and mongoDB and with typical use of the CRUD methods.
 
 
 ## Table of Contents
@@ -27,11 +28,12 @@
 
 ## Usage
 
+The backend of a social network app. This backend will allow creation of users, thoughts, reactions, and freinding/unfriending other users.
 
 
 ## Video
 
-[![landing page](./public/img/screenshotHomepage.png)](_______ "Demo Video")
+[![landing page](https://drive.google.com/file/d/18Yi8Im-e1AHHJsaHiZhzNVGiU02qQRc7/view?usp=sharing "Demo Video"){:target="_blank"}
 
 ## Collaboration
 
